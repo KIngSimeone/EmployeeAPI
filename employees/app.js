@@ -1,6 +1,3 @@
-const logger  = require('./logger')
+const log = require('./logger');
 
-
-logger = 3;
-
-logger.log('message')
+log('message');
