@@ -1,5 +1,3 @@
-function sayHello(name) {
-    console.log("Hello" + name)// global object - it can be accessed anywhere
-}
+var logger  = require('./logger')
 
-sayHello('Simeone')
+logger.log('message')
